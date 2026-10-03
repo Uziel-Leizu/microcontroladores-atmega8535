@@ -1,0 +1,28 @@
+# Normalización de finales de línea
+* text=auto
+
+# Código fuente: LF, texto
+*.c      text eol=lf
+*.h      text eol=lf
+*.hpp    text eol=lf
+
+# Documentación: LF, texto
+*.md     text eol=lf
+LICENSE  text eol=lf
+CITATION.cff text eol=lf
+
+# Proyectos de CodeVisionAVR / Atmel Studio
+*.cproj  text eol=crlf
+*.atsln  text eol=crlf
+*.prj    text eol=crlf
+
+# Binarios: nunca se deben normalizar
+*.pdf    binary
+*.docx   binary
+*.eep    binary
+*.hex    binary
+*.elf    binary
+
+# Reports en texto plano
+*.map    text eol=crlf
+*.lst    text eol=crlf

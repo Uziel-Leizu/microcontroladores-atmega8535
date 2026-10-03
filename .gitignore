@@ -1,0 +1,76 @@
+# =====================================================================
+#  Prácticas de Microcontroladores — ATmega8535
+#  Artefactos de compilación de CodeVisionAVR / Atmel Studio
+# =====================================================================
+
+# --- Carpetas de salida del compilador ---------------------------------
+Debug/
+Release/
+List/
+Link/
+Exe/
+
+# --- Objetos, librerías y binarios intermedios -------------------------
+*.o
+*.a
+*.obj
+*.lib
+*.cof
+
+# --- Ejecutables y archivos para el programador ------------------------
+*.elf
+*.hex
+*.rom
+*.eep
+*.bin
+
+# --- Listas, mapas y ensamblador ---------------------------------------
+*.lst
+*.map
+*.asm
+*.s
+*.lss
+
+# --- Símbolos y tablas del depurador ----------------------------------
+*.sym
+*.sym1
+*.sym2
+*.sym3
+*.str1
+
+# --- Archivos auxiliares de CodeVisionAVR ------------------------------
+*.cbi
+*.cci
+*.cwp
+*.fct
+*.c~
+*.lko
+
+# --- .cfg = distribución de ventanas del IDE (sólo estado de la GUI) ----
+*.cfg
+
+# --- .txt =(Project Text) de CodeVisionAVR; todos vacíos en este repo --
+*.txt
+
+# --- Archivos de respaldo de editores ----------------------------------
+*~
+*.bak
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- Sistema operativo --------------------------------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# =====================================================================
+#  Se conservan intencionalmente:
+#    *.c      -> código fuente
+#    *.cproj  -> proyecto CodeVisionAVR / Atmel Studio
+#    *.atsln  -> solución Atmel Studio
+#    *.prj    -> proyecto CodeVisionAVR (reloj, fuses, configuración)
+#    *.h      -> cabeceras propias (si se agregan)
+#    *.pdf    -> reportes de práctica
+# =====================================================================

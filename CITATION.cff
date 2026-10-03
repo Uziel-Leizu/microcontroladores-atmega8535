@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Si utilizas este material, cita esta información."
+title: "Prácticas de Microcontroladores — ATmega8535"
+abstract: >-
+  Colección de 23 programas en C para el microcontrolador ATmega8535,
+  desarrollados durante la materia «Sistemas en Chip» (Microcontroladores)
+  en la Escuela Superior de Computación del Instituto Politécnico Nacional.
+  Incluye prácticas de entrada/salida digital, displays de 7 segmentos,
+  teclado matricial, memoria EEPROM, conversor analógico-digital,
+  y dos proyectos completos: un móvil controlado por infrarrojo y un
+  robot tipo Bee-Bot.
+type: software
+authors:
+  - family-names: "Córdova Pichardo"
+    given-names: "Francisco Uziel"
+    alias: "Uziel-Leizu"
+license: MIT
+repository-code: "https://github.com/Uziel-Leizu/microcontroladores-atmega8535"
+keywords:
+  - avr
+  - atmega8535
+  - microcontroladores
+  - sistemas-en-chip
+  - codevisionavr
+  - electronica
+  - ipn-escom
